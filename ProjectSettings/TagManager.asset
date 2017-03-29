@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Block
+  - Pause
   layers:
   - Default
   - TransparentFX
