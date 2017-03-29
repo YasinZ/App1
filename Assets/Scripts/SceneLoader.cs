@@ -17,6 +17,11 @@ public class SceneLoader : MonoBehaviour {
 
     public void StartGame()
     {
-        SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadScene("Scenes/Main");
+    }
+
+    public void StartTutorial()
+    {
+        SceneManager.LoadScene("Scenes/Tutorial");
     }
 }
