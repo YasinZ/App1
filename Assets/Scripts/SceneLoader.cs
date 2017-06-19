@@ -24,4 +24,9 @@ public class SceneLoader : MonoBehaviour {
     {
         SceneManager.LoadScene("Scenes/Tutorial");
     }
+
+    public void StartTD()
+    {
+        SceneManager.LoadScene("Scenes/MainMap");
+    }
 }
