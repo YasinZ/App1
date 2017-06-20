@@ -24,7 +24,7 @@ public class DamageController : MonoBehaviour
         Debug.Log("here");
         if (other.CompareTag("Block"))
         {
-            Destroy(gameObject);
+            Destroy(other);
             iconController.TakeDamange();
         }
     }

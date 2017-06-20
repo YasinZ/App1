@@ -36,9 +36,9 @@ public class IconController : MonoBehaviour {
             balance += 10;
 
         if (balance > 999)
-            textBalance.fontSize = 25;
+            textBalance.fontSize = 15;
         else if (balance > 99)
-            textBalance.fontSize = 35;
+            textBalance.fontSize = 25;
 
         textBalance.text = "$: " + balance;
     }
@@ -48,9 +48,9 @@ public class IconController : MonoBehaviour {
         kills++;
 
         if (kills > 99)
-            textKills.fontSize = 25;
+            textKills.fontSize = 15;
         else if (kills > 9)
-            textKills.fontSize = 30;
+            textKills.fontSize = 22;
 
         textKills.text = "Kills: " + kills;
     }
