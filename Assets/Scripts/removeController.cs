@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class removeController : MonoBehaviour {
-    public MoneyController moneyController;
+    public IconController iconController;
 
 	// Use this for initialization
 	void Start () {
@@ -21,7 +21,8 @@ public class removeController : MonoBehaviour {
                 if (hit && hit.collider.gameObject.CompareTag("Block"))
                 {
                     Destroy(hit.collider.gameObject);
-                    moneyController.IncreaseBalance();
+                    iconController.IncreaseBalance();
+                    iconController.IncreaseKills();
                 }
 
             }
