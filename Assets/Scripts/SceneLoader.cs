@@ -32,6 +32,6 @@ public class SceneLoader : MonoBehaviour {
 
     public void StartTD()
     {
-        SceneManager.LoadScene("Scenes/MainMap");
+        SceneManager.LoadScene("Scenes/TD");
     }
 }

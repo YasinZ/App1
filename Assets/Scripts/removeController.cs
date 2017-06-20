@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class removeController : MonoBehaviour {
+    public MoneyController moneyController;
 
 	// Use this for initialization
 	void Start () {
@@ -18,7 +19,10 @@ public class removeController : MonoBehaviour {
                 RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(touch.position), Vector2.zero);
 
                 if (hit && hit.collider.gameObject.CompareTag("Block"))
-                        Destroy(hit.collider.gameObject);
+                {
+                    Destroy(hit.collider.gameObject);
+                    moneyController.IncreaseBalance();
+                }
 
             }
     }
