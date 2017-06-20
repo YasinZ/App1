@@ -35,7 +35,9 @@ public class IconController : MonoBehaviour {
         if (balance < maxBalance)
             balance += 10;
 
-        if (balance > 99)
+        if (balance > 999)
+            textBalance.fontSize = 25;
+        else if (balance > 99)
             textBalance.fontSize = 35;
 
         textBalance.text = "$: " + balance;
@@ -51,5 +53,12 @@ public class IconController : MonoBehaviour {
             textKills.fontSize = 30;
 
         textKills.text = "Kills: " + kills;
+    }
+
+    public void TakeDamange()
+    {
+        HP--;
+
+        textHP.text = "HP: " + HP;
     }
 }

@@ -7,7 +7,7 @@ public class removeController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        iconController = GameObject.FindObjectOfType<IconController>();
 	}
 
     // Update is called once per frame
