@@ -15,6 +15,11 @@ public class SceneLoader : MonoBehaviour {
 		
 	}
 
+    public void StartMainMenu()
+    {
+        SceneManager.LoadScene("Scenes/HomeScene");
+    }
+
     public void StartGame()
     {
         SceneManager.LoadScene("Scenes/Main");

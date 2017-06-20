@@ -151,6 +151,14 @@ Prefab:
       propertyPath: m_Name
       value: Block (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
   m_IsPrefabParent: 0
@@ -196,6 +204,14 @@ Prefab:
     - target: {fileID: 1365652398016172, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
       propertyPath: m_Name
       value: Block (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
@@ -243,6 +259,14 @@ Prefab:
       propertyPath: m_Name
       value: Block (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
   m_IsPrefabParent: 0
@@ -288,6 +312,14 @@ Prefab:
     - target: {fileID: 1365652398016172, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
       propertyPath: m_Name
       value: Block (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
@@ -466,13 +498,14 @@ GameObject:
   - component: {fileID: 995051784}
   - component: {fileID: 995051783}
   - component: {fileID: 995051782}
+  - component: {fileID: 995051786}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &995051782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -550,6 +583,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &995051786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 995051781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad723cd42221b3f4cae0f4da47af29f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1152927680
 Prefab:
   m_ObjectHideFlags: 0
@@ -592,6 +636,14 @@ Prefab:
     - target: {fileID: 1365652398016172, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
       propertyPath: m_Name
       value: Block (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
@@ -775,6 +827,14 @@ Prefab:
       propertyPath: m_Name
       value: Block (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
   m_IsPrefabParent: 0
@@ -880,8 +940,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1437525947}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.4, y: 4.487, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_LocalPosition: {x: -2.556485, y: 4.743997, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -961,7 +1021,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1563932612}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 995051786}
+        m_MethodName: StartMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1563932612
@@ -1072,7 +1143,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1911688288}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 995051781}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1911688288
@@ -1151,6 +1233,14 @@ Prefab:
       propertyPath: m_Name
       value: Block (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
   m_IsPrefabParent: 0
@@ -1191,6 +1281,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
       propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
+      propertyPath: m_LocalScale.y
       value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1238,6 +1336,14 @@ Prefab:
     - target: {fileID: 1365652398016172, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
       propertyPath: m_Name
       value: Block (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733337379356440, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9122648fb925f2142ba5b5af420657a7, type: 2}
